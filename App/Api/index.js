@@ -1,1 +1,1 @@
-export { default as dummy } from './Dummy'
+export { default as getProductCategories } from './GetProductCategories';
