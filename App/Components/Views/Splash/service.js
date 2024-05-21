@@ -1,11 +1,11 @@
-import { useIsFocused } from '@react-navigation/native';
 import React, { useEffect } from 'react';
+import { useIsFocused } from '@react-navigation/native';
 
 const useService = props => {
   const f = useIsFocused();
   useEffect(() => {
     setTimeout(() => {
-      props.navigation.navigate('Welcome');
+      props.navigation.navigate('Products');
     }, 2000);
   }, [f]);
 

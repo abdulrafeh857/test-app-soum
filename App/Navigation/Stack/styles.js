@@ -1,15 +1,11 @@
-import { Dimensions } from 'react-native'
-
-const { width, height } = Dimensions.get('window')
-
 const useStyles = () => {
   const headerHidden = {
     options: {
-      headerShown: false,
-    },
-  }
+      headerShown: false
+    }
+  };
 
-  return { headerHidden }
-}
+  return { headerHidden };
+};
 
-export default useStyles
+export default useStyles;
