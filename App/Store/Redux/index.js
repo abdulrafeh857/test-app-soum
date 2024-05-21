@@ -1,7 +1,6 @@
-/* eslint-disable prettier/prettier */
 import { configureStore } from '@reduxjs/toolkit';
-import Users from './Users';
+import selectedProducts from './selected';
 
 export const store = configureStore({
-  reducer: { Users }
+  reducer: { selectedProducts }
 });
