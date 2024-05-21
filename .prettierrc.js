@@ -6,7 +6,8 @@ module.exports = {
   arrowParens: 'avoid',
   semi: true,
   endOfLine: 'auto',
+  printWidth: 160,
   rules: {
     semi: [2, true]
-}
-}
+  }
+};
