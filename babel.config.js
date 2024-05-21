@@ -25,7 +25,8 @@ module.exports = {
           '@Async': ['./App/Store/Async'],
           '@Redux': ['./App/Store/Redux'],
           '@Theme': ['./App/Theme'],
-          '@Utils': ['./App/Utils']
+          '@Utils': ['./App/Utils'],
+          '@Functions': ['./App/Functions']
         }
       }
     ]
