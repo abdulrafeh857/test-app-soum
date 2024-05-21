@@ -6,15 +6,27 @@ export const Colors = {
   transparent: 'rgba(0,0,0,0)',
   text: '#3f3f3f',
   tintGrey: '#777b',
+  lightGrey: '#6B7280',
   foreground: '#FFFFFF',
   background: '#f5f5f5',
   success: '#28a745',
   error: '#dc3545',
-
-  primary: 'teal',
-  secondary: 'green'
+  primary: '#177AE2',
+  primaryLight: '#177AE250',
+  secondary: '#14003B',
+  red: '#FF0000'
 };
+export const CardShadow = {
+  shadowColor: Colors.primary,
+  shadowOffset: {
+    width: 0,
+    height: 3
+  },
+  shadowOpacity: 0.27,
+  shadowRadius: 4.65,
 
+  elevation: 6
+};
 /*  APP SPECIFIC FONTS  */
 export const FontFamily = {
   Bold: 'SofiaPro-Bold',
