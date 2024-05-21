@@ -1,34 +1,10 @@
 import React from 'react';
-import {
-  Text as RNText,
-  TextStyle,
-  TextProps as RNTextProps
-} from 'react-native';
+import { Text as RNText, TextStyle, TextProps as RNTextProps } from 'react-native';
 import { scaleFont } from '@Utils';
 import { Colors, FontFamily } from '@Theme';
 
 const Text = props => {
-  const {
-    children,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 = true,
-    w1,
-    w2,
-    w3,
-    w4 = true,
-    w5,
-    p,
-    bold,
-    italic,
-    center,
-    justify,
-    selfCenter,
-    style,
-    ...rest
-  } = props;
+  const { children, h1, h2, h3, h4, h5 = true, w1, w2, w3, w4 = true, w5, p, bold, italic, center, justify, selfCenter, style, ...rest } = props;
 
   let textStyle = {
     color: Colors.text

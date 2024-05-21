@@ -12,17 +12,14 @@ const Screen = props => {
     <>
       <StatusBar backgroundColor={Colors.primary} />
 
-      <SafeAreaView
-        style={{
-          backgroundColor: Colors.primary
-        }}
-      />
+      <SafeAreaView style={{ backgroundColor: Colors.primary }} />
 
       <ScrollView
         {...props}
         keyboardShouldPersistTaps={'handled'}
         contentInsetAdjustmentBehavior="automatic"
-        style={rootScroll}>
+        style={rootScroll}
+        showsVerticalScrollIndicator={false}>
         <View style={root}>{children}</View>
       </ScrollView>
     </>
