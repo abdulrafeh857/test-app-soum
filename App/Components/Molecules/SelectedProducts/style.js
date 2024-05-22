@@ -32,7 +32,7 @@ const useStyles = () =>
     },
     iconStyle: {
       position: 'absolute',
-      right: -7,
+      right: -13,
       top: -7
     }
   });
