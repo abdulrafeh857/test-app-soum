@@ -24,7 +24,7 @@ const SelectedProducts = () => {
                 dispatch(setSelectedProductsSlice(arr));
               }}>
               <Text style={itemText} key={index}>
-                {item.model} {item.variant},{' '}
+                {item.model} {item.variant}
               </Text>
               <Icon name="close-circle" size={20} color={Colors.lightGrey} style={iconStyle} />
             </TouchableOpacity>
