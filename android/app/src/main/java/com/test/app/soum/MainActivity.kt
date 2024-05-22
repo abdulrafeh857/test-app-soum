@@ -1,4 +1,4 @@
-package com.rnboiler
+package com.test.app.soum
 
 import android.os.Bundle;
 

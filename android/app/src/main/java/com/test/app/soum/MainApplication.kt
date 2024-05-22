@@ -1,4 +1,4 @@
-package com.rnboiler
+package com.test.app.soum
 
 import android.app.Application
 import com.facebook.react.PackageList
