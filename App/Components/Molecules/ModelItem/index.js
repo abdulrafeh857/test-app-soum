@@ -48,9 +48,6 @@ const ModelItem = ({ model }) => {
                   }
                 ])
               );
-              console.log('model', model);
-
-              console.log('variant', variant);
             }}
           />
         </>

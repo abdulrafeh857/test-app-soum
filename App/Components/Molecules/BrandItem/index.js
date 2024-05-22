@@ -4,7 +4,6 @@ import ModelItem from '../ModelItem';
 import styles from '../TreeView/style';
 
 const BrandItem = ({ brand }) => {
-  console.log('brand', brand);
   const [expanded, setExpanded] = useState(false);
 
   return (
